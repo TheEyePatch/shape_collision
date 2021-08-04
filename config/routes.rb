@@ -9,4 +9,7 @@ Rails.application.routes.draw do
 
   #Get all both shapes
   get '/get', to: 'shapes#index'
+
+  #Collision
+  get '/collide', to: 'collisions#index'
 end
